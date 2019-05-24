@@ -1,0 +1,90 @@
+.App
+{
+	position: absolute;
+	width: 50%;
+	margin: 0 auto;
+	border: solid;
+	top: 25vh;
+	left: 25vw;
+}
+
+#display
+{
+	height: calc(2em + 2vh);
+	background: #c7e8f3;
+	width: 100%; 
+	margin: 0 auto;
+	color: #41393e;
+  	text-align: right;
+	border-bottom-style: solid;
+	font-size: 2em;
+}
+
+#inputs
+{
+	display: flex;
+}
+#numbers
+{
+	width: 70%;
+	height: 33%;
+	border-right-style: solid;
+}
+.number
+{
+	width: 50%;
+	height: 20%;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	
+}
+
+#operators
+{
+	width: 20%;
+}
+.operator
+{
+	width:100%;
+	border-bottom-style: solid;
+	background-color: #eda2c0;
+}
+
+#clearEquals
+{
+	width: 10%;
+}
+
+.clearEqual
+{
+	width: 100%;
+	height: 50%;
+}
+
+button
+{
+  background-color: #bf9aca;
+  border: none;
+  border-width: 1px;
+  border-color: #41393e;
+	color: #41393e;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#clear
+{
+	background-color: #eda2c0;
+	border-left-style: solid;
+	background-color: #eeeeee;
+}
+
+#equal
+{
+	border-left-style: solid;
+	border-top-style: solid;
+background-color: #8e4162;
+}
+
+
+
